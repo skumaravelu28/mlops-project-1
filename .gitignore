@@ -3,6 +3,21 @@
 
 # MLflow local tracking DB
 mlflow.db
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Data (tracked by DVC)
+data/raw/reviews.csv
+
+# OS
+.DS_Store
 
 # Python cache
 __pycache__/

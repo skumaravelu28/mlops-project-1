@@ -1,0 +1,9 @@
+# Python virtual environment
+.venv/
+
+# MLflow local tracking DB
+mlflow.db
+
+# Python cache
+__pycache__/
+*.pyc
